@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Buscador de Artículos de la Enciclopedia | HealthClinic</title>
+</head>
+<body>
+	<header>
+        <h1><a href="../paginas/index.html">HealthClinic</a></h1>
+        <a href="../paginas/index.html">
+        <figure>
+			<img src="../imagenes/logo.jpg" width= "150" height="150" alt="Logo">
+			<figcaption> Logo de HealthClinic </figcaption>
+        </figure>
+        </a>
+    </header>
+	<main>
+    <h1>Buscador de Artículos de la Enciclopedia</h1>
+
+    <form action="respuesta-formBusqueda.html" method="get">
+
+        <!-- Información sobre cómo completar el formulario -->
+        <p>Por favor, rellena uno o más de los campos a continuación para realizar una búsqueda de artículos en la enciclopedia. Los campos marcados con * son obligatorios.</p>
+
+        <fieldset>
+            <legend>Buscar por campos</legend>
+
+            <label for="descripcion">Descripción: *</label>
+            <input type="text" id="descripcion" name="descripcion" placeholder="Dolor de cabeza" required><br><br>
+
+            <label for="causas">Causas:</label>
+            <input type="text" id="causas" name="causas" placeholder="Estrés, fatiga"><br><br>
+
+            <label for="sintomas">Síntomas: *</label>
+            <input type="text" id="sintomas" name="sintomas" placeholder="Fiebre, náuseas" required><br><br>
+
+            <label for="examenes">Pruebas y exámenes:</label>
+            <input type="text" id="examenes" name="examenes" placeholder="Análisis de sangre, radiografía"><br><br>
+
+            <label for="tratamiento">Tratamiento:</label>
+            <input type="text" id="tratamiento" name="tratamiento" placeholder="Medicación, cirugía"><br><br>
+
+            <label for="expectativas">Expectativas:</label>
+            <input type="text" id="expectativas" name="expectativas" placeholder="Recuperación total en 2 semanas"><br><br>
+
+        </fieldset>
+
+        <!-- Botón para enviar la búsqueda -->
+        <br>
+        <button type="submit">Buscar</button>
+    </form>
+    </main>
+    <footer>
+            <p><a href="../paginas/index.html">Volver a la página principal</a></p>
+            <p>Autores: Sara Cantó Sánchez, Lucía Albarracín Abenza</p>
+            <p>&copy; 2024 HealthClinic</p>
+            <p>Grado en ingenieria biomedica - Universidad de Alicante.</p>
+    </footer>
+
+</body>
+</html>
